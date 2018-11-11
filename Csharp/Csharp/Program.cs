@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Монти_Пайтон
+namespace Csharp
 {
     class Program
     {
