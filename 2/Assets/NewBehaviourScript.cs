@@ -1,16 +1,18 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.UI;
+using System.Collections;
 
-public class NewBehaviourScript : MonoBehaviour {
+public class UIButton : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+        GameObject obj;
+        void Start () {
+                obj = GameObject.Find ("H2O");
+        }
+        
+        // Update is called once per frame
+        void OnGUI () {
+                if (GUI.Button (new Rect (100f, 100f, 80f, 15f), "Нажми")) {
+                        obj.SetActive(false);
+                }
+        }
 }

@@ -2,9 +2,6 @@ sceneSetups:
 - path: "Assets/\u043C\u0435\u043D\u044E2.unity"
   isLoaded: 1
   isActive: 1
-- path: Assets/H2O.unity
-  isLoaded: 1
-  isActive: 0
 - path: Assets/BeCl2.unity
   isLoaded: 1
   isActive: 0
